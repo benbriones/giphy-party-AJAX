@@ -1,0 +1,15 @@
+img {
+  object-fit: contain;
+  overflow: hidden;
+  width: 100%;
+}
+
+.gif-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+div {
+  margin: 5px 10px;
+}
